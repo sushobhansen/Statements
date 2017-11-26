@@ -1,2 +1,3 @@
-# Statements
-My research and teaching statements, updated as necessary
+## Research and Teaching Statements
+
+This repository containts LaTeX source files for my research and teaching statements. 
