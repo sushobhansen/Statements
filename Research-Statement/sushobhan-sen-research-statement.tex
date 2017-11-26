@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+
+% --------------------------------
+%% Preamble
+% --------------------------------
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage[margin=1in]{geometry}
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+%\pagestyle{empty} % Suppress page numbers
+\usepackage{amsmath}
+
+\usepackage{hyperref} %To add hyperlinks
+\hypersetup{colorlinks=true,urlcolor=blue}
+
+\usepackage{titlesec} %Formatting for section & subsection titles
+%Format sections and spacing
+\titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{\MakeUppercase}[\titlerule]
+\titlespacing{\section}{0pt}{5.0pt}{0.5pt}
+%Format subsections and spacing
+\titleformat{\subsection}{\normalfont\itshape}{\thesubsection}{1em}{}
+\titlespacing{\subsection}{0pt}{0.5pt}{0.5pt}
+
+\usepackage{enumitem} %Formatting ordered lists
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\usepackage{fancyhdr} %Add fancy header
+\pagestyle{fancy}
+\fancyhead[L]{Sushobhan Sen}
+\fancyhead[R]{Research Statement}
+
+
+
+\begin{document} \sloppy %sloppy command handles some line overflows
+My research statement
+
+\end{document}
