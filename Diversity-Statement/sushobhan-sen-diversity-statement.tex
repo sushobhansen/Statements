@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+
+% --------------------------------
+%% Preamble
+% --------------------------------
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage[margin=1in]{geometry}
+\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
+%\pagestyle{empty} % Suppress page numbers
+\usepackage{amsmath}
+\usepackage{soul}
+
+\usepackage{hyperref} %To add hyperlinks
+\hypersetup{colorlinks=true,urlcolor=blue,citecolor=blue}
+
+\usepackage{titlesec} %Formatting for section & subsection titles
+%Format sections and spacing
+\titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{\MakeUppercase}[]
+\titlespacing{\section}{0pt}{5.0pt}{0.5pt}
+%Format subsections and spacing
+\titleformat{\subsection}{\normalfont\itshape}{\thesubsection}{1em}{}
+\titlespacing{\subsection}{0pt}{0.5pt}{0.5pt}
+
+\usepackage{enumitem} %Formatting ordered lists
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\usepackage{fancyhdr} %Add fancy header
+\pagestyle{fancy}
+\fancyhead[L]{Sushobhan Sen}
+\fancyhead[R]{Diversity Statement}
+
+
+
+\begin{document} \sloppy %sloppy command handles some line overflows
+\begin{center}
+{\large \uppercase{\textbf{Diversity Statement}}}
+\end{center}
+
+\section*{Background}
+Diversity has been a part of my life for as long as I can remember. Growing up in a military family in India and having visited several countries, I have experienced a variety of cultures and worked with people from widely different background. 
+
+I am particularly inspired by a saying, 'Let noble thoughts come to us from all side,' from the ancient Indian text, the Rig Veda (1.89.1).
+
+\section*{Experience with Diversity}
+What I've done for diversity.
+
+\section*{Commitment to Diversity}
+What I will do.
+
+\end{document}
